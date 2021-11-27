@@ -73,6 +73,7 @@ func init() {
 			"auth0_connection":      dataSourceConnection(),
 			"auth0_resource_server": dataSourceResourceServer(),
 			"auth0_custom_domain":   dataSourceCustomDomain(),
+			"auth0_connections":     dataSourceConnections(),
 		},
 		ConfigureContextFunc: Configure,
 	}
