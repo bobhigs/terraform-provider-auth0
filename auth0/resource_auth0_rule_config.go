@@ -3,7 +3,7 @@ package auth0
 import (
 	"context"
 
-	"github.com/alekc/terraform-provider-auth0/auth0/internal/flow"
+	"github.com/bobhigs/terraform-provider-auth0/auth0/internal/flow"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"

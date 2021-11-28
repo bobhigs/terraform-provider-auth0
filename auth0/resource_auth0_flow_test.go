@@ -3,7 +3,7 @@ package auth0
 import (
 	"testing"
 
-	"github.com/alekc/terraform-provider-auth0/auth0/internal/random"
+	"github.com/bobhigs/terraform-provider-auth0/auth0/internal/random"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 )
 
@@ -38,7 +38,7 @@ resource "auth0_action" "myaction2" {
 		version = "0.1.7"
 	}
 # Dependency below won't be deployed due to the big size. 
-# See https://github.com/alekc/terraform-provider-auth0/issues/30
+# See https://github.com/bobhigs/terraform-provider-auth0/issues/30
 #	dependency {
 #		name    = "bit-bin"
 #		version = "14.8.8"

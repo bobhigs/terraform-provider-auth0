@@ -3,9 +3,9 @@ package auth0
 import (
 	"context"
 	"fmt"
-	"github.com/alekc/terraform-provider-auth0/auth0/internal/flow"
-	"github.com/alekc/terraform-provider-auth0/auth0/internal/utils"
-	v "github.com/alekc/terraform-provider-auth0/auth0/internal/validation"
+	"github.com/bobhigs/terraform-provider-auth0/auth0/internal/flow"
+	"github.com/bobhigs/terraform-provider-auth0/auth0/internal/utils"
+	v "github.com/bobhigs/terraform-provider-auth0/auth0/internal/validation"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"gopkg.in/auth0.v5/management"

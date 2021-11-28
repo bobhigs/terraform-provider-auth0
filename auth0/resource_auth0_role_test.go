@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"gopkg.in/auth0.v5/management"
 
-	"github.com/alekc/terraform-provider-auth0/auth0/internal/random"
+	"github.com/bobhigs/terraform-provider-auth0/auth0/internal/random"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 )
 

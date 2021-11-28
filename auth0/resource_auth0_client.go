@@ -11,8 +11,8 @@ import (
 	"gopkg.in/auth0.v5"
 	"gopkg.in/auth0.v5/management"
 
-	"github.com/alekc/terraform-provider-auth0/auth0/internal/flow"
-	v "github.com/alekc/terraform-provider-auth0/auth0/internal/validation"
+	"github.com/bobhigs/terraform-provider-auth0/auth0/internal/flow"
+	v "github.com/bobhigs/terraform-provider-auth0/auth0/internal/validation"
 )
 
 func newClient() *schema.Resource {

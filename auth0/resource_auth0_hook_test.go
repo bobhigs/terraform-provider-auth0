@@ -5,7 +5,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 
-	"github.com/alekc/terraform-provider-auth0/auth0/internal/random"
+	"github.com/bobhigs/terraform-provider-auth0/auth0/internal/random"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 )

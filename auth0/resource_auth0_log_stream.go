@@ -6,7 +6,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 
-	"github.com/alekc/terraform-provider-auth0/auth0/internal/flow"
+	"github.com/bobhigs/terraform-provider-auth0/auth0/internal/flow"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
 
@@ -364,7 +364,7 @@ func expandLogStream(d ResourceData) *management.LogStream {
 		default:
 			log.Printf("[WARN]: Unsupported log stream sink %s", s)
 			log.Printf("[WARN]: Raise an issue with the auth0 provider in order to support it:")
-			log.Printf("[WARN]: 	https://github.com/alekc/terraform-provider-auth0/issues/new")
+			log.Printf("[WARN]: 	https://github.com/bobhigs/terraform-provider-auth0/issues/new")
 		}
 	})
 

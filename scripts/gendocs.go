@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/alekc/terraform-provider-auth0/auth0"
+	"github.com/bobhigs/terraform-provider-auth0/auth0"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 )
 

@@ -342,7 +342,7 @@ func expandConnection(d ResourceData) *management.Connection {
 		default:
 			log.Printf("[WARN]: Unsupported connection strategy %s", s)
 			log.Printf("[WARN]: Raise an issue with the auth0 provider in order to support it:")
-			log.Printf("[WARN]: 	https://github.com/alekc/terraform-provider-auth0/issues/new")
+			log.Printf("[WARN]: 	https://github.com/bobhigs/terraform-provider-auth0/issues/new")
 		}
 	})
 

@@ -49,4 +49,4 @@ jobs:
 #      uses: aktions/codeclimate-test-reporter@v1
 #      with:
 #        codeclimate-test-reporter-id: ${{ secrets.CC_TEST_REPORTER_ID }}
-#        command: after-build --prefix github.com/alekc/terraform-provider-auth0
+#        command: after-build --prefix github.com/bobhigs/terraform-provider-auth0

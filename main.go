@@ -5,7 +5,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/alekc/terraform-provider-auth0/auth0"
+	"github.com/bobhigs/terraform-provider-auth0/auth0"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
 )
 
@@ -24,7 +24,7 @@ func main() {
 	flag.Parse()
 
 	if debugMode {
-		err := plugin.Debug(context.Background(), "registry.terraform.io/alekc/auth0",
+		err := plugin.Debug(context.Background(), "registry.terraform.io/bobhigs/auth0",
 			&plugin.ServeOpts{
 				ProviderFunc: auth0.Provider,
 			})
